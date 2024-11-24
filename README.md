@@ -56,6 +56,6 @@ To run this project locally, ensure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/inventory-management.git
+   git clone [https://github.com/yourusername/inventory-management.git](https://github.com/jdaly3411/InvPro.git)
    cd inventory-management
 
