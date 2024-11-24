@@ -33,11 +33,12 @@ The **Inventory Management** app is a **full-stack** web application built to ma
   - React.js
   - Tailwind CSS
   - TypeScript
+  - Next.js
 - **Backend**:
   - Node.js
   - Express.js
-  - PostgreSQL
-- **Authentication**: JWT (JSON Web Token)
+  - PostgreSQL (Eventually)
+- **Authentication**: JWT (JSON Web Token) (Eventually)
 - **Version Control**: Git, GitHub
 - **Development Tools**: ESLint, Prettier
 
@@ -50,12 +51,13 @@ The **Inventory Management** app is a **full-stack** web application built to ma
 To run this project locally, ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/)
-- [PostgreSQL](https://www.postgresql.org/)
 
 ### Installation
 
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/yourusername/inventory-management.git](https://github.com/jdaly3411/InvPro.git)
-   cd inventory-management
+   git clone (https://github.com/jdaly3411/InvPro.git)
+2. **Install the dependencies**:
+3. ```bash
+   npm install
 
