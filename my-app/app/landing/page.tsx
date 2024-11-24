@@ -13,6 +13,7 @@ import {
   UserCircleIcon,
 } from "@heroicons/react/24/outline";
 import { StarIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 
 // Define types for our feature items
 interface FeatureItem {
@@ -204,12 +205,16 @@ const LandingPage: React.FC = () => {
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-2xl font-bold">InventoryPro</div>
           <nav className="space-x-4">
-            <Button className="text-white hover:bg-gray-700 px-4 py-2 rounded-md bg-black">
-              Log In
-            </Button>
-            <Button className="text-white bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded-md">
-              Sign Up
-            </Button>
+            <Link href="/auth">
+              <Button className="text-white hover:bg-gray-700 px-4 py-2 rounded-md bg-black">
+                Log In
+              </Button>
+            </Link>
+            <Link href="/auth">
+              <Button className="text-white bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded-md">
+                Sign Up
+              </Button>
+            </Link>
           </nav>
         </div>
       </header>
